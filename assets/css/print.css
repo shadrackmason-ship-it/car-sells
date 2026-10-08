@@ -1,0 +1,71 @@
+@media print {
+  :root {
+    color-scheme: light;
+    --bg: #fff;
+    --panel: #fff;
+    --panel2: #eee;
+    --text: #111;
+    --muted: #444;
+    --line: #bbb;
+  }
+
+  body {
+    color: #111;
+    background: #fff;
+    font-size: 10pt;
+  }
+
+  .header,
+  .floatwa,
+  .arrows,
+  .caractions,
+  .filters,
+  .filterfoot,
+  .booking,
+  .trade,
+  .contact form,
+  .footer,
+  .modal,
+  .backdrop,
+  .btn,
+  .linkbtn {
+    display: none !important;
+  }
+
+  .section {
+    padding: 18pt 0;
+    break-inside: avoid;
+  }
+
+  .hero {
+    min-height: 0;
+    padding: 24pt 0;
+  }
+
+  .hero:before,
+  .hero:after,
+  .heroimg {
+    display: none;
+  }
+
+  .herocopy,
+  .herocopy > p,
+  .herometa {
+    color: #111;
+  }
+
+  .cars,
+  .quotes,
+  .servicegrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "kilimani-garage-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Kilimani Garage website with WhatsApp ordering",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  }
+}
